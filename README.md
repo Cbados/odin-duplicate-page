@@ -1,1 +1,2 @@
 # odin-duplicate-page
+This is a example of the Landing page builded only HTML & CSS (Flex-box). This page have 4 four section and a footer. The images used belong to sites like Pexels, Pixabay and Unsplash.
