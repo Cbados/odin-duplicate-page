@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #1F2937;
+    color: white;
+    
+}
+.navegation{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    padding: 12px 0; 
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.up{
+    display: flex;
+    justify-content: center;
+    margin:84px 0;
+    gap: 48px;
+
+}
+
+.element-up{
+    width: 450px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+
+}
+
+.title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text-card{
+    /* font-size: 18px; */
+    color: #4f4f50;
+}
+
+.title-random{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 36px 0;
+}
+
+.image-card{
+    border-color: #3882f6;
+    border-radius: 8px;
+    width: 120px;
+}
+
+.random-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 900px;
+    margin-bottom: 84px;
+}
+
+.phrase{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 84px 0;
+}
+
+.content-phrase>p{
+    width: 900px;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.content-phrase>h3{
+    display: flex;
+    justify-self: end;
+}
+
+.call-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-call{
+    background-color: #3882f6;
+    width: 900px;
+    display: flex;
+    margin: 72px 0;
+    padding: 48px 60px;
+    border-radius: 8px;
+}
+
+.text-call{
+    color: #e5e7eb;
+    flex: 1;
+}
+
+.button-call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+
+.item-call{
+    margin: 0;
+}
+
+button{
+    background-color: #3882f6;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 24px;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
